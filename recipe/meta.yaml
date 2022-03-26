@@ -10,9 +10,9 @@ source:
   sha256: 870bbe1cccc5a42cb68485312e7fc69fd077c12623bb7458be3f7582972958c4
 
 build:
-  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
@@ -34,9 +34,10 @@ test:
 
 about:
   home: https://airflow.apache.org/
-  summary: Provider for Apache Sqoop for Apache Airflow
+  summary: Provider for Apache Airflow. Implements apache-airflow-providers-apache-sqoop package
   license: Apache-2.0
   license_file: LICENSE
+  license_family: Apache
   doc_url: https://airflow.apache.org/docs/apache-airflow-providers-apache-sqoop/stable/index.html
   dev_url: https://github.com/apache/airflow/
 
