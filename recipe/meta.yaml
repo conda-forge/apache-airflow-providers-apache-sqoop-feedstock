@@ -1,5 +1,5 @@
 {% set name = "apache-airflow-providers-apache-sqoop" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apache-airflow-providers-apache-sqoop-{{ version }}.tar.gz
-  sha256: c64d1d24b0f9fc324c7dde4d49d7bf0a2fb55f1179ff9e80068143359890a27b
+  sha256: 1c210d7ffb7ce6d86f2dca6974d1cf642b2b02a9a951eeca18e1bf41eac4c70b
 
 build:
   noarch: python
